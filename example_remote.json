@@ -9,7 +9,7 @@
     },
     "button3": {
         "code": "FFE21D",
-        "action": "volume_mute"
+        "action": "VOLUME_MUTE"
     },
     "button4": {
         "code": "FF22DD",
