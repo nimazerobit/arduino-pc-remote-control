@@ -1,0 +1,86 @@
+{
+    "button1": {
+        "code": "FFA25D",
+        "action": "lock"
+    },
+    "button2": {
+        "code": "FF629D",
+        "action": "none"
+    },
+    "button3": {
+        "code": "FFE21D",
+        "action": "volume_mute"
+    },
+    "button4": {
+        "code": "FF22DD",
+        "action": "PLAY_PAUSE"
+    },
+    "button5": {
+        "code": "FF02FD",
+        "action": "PREVIOUS_TRACK"
+    },
+    "button6": {
+        "code": "FFC23D",
+        "action": "NEXT_TRACK"
+    },
+    "button7": {
+        "code": "FFE01F",
+        "action": "none"
+    },
+    "button8": {
+        "code": "FFA857",
+        "action": "VOLUME_DOWN"
+    },
+    "button9": {
+        "code": "FF906F",
+        "action": "VOLUME_UP"
+    },
+    "button10": {
+        "code": "FF6897",
+        "action": "none"
+    },
+    "button11": {
+        "code": "FF9867",
+        "action": "ADD_DESKTOP"
+    },
+    "button12": {
+        "code": "FFB04F",
+        "action": "none"
+    },
+    "button13": {
+        "code": "FF30CF",
+        "action": "SWITCH_DESKTOP_1"
+    },
+    "button14": {
+        "code": "FF18E7",
+        "action": "SWITCH_DESKTOP_2"
+    },
+    "button15": {
+        "code": "FF7A85",
+        "action": "SWITCH_DESKTOP_3"
+    },
+    "button16": {
+        "code": "FF10EF",
+        "action": "none"
+    },
+    "button17": {
+        "code": "FF38C7",
+        "action": "none"
+    },
+    "button18": {
+        "code": "FF5AA5",
+        "action": "none"
+    },
+    "button19": {
+        "code": "FF42BD",
+        "action": "F_BUTTON_22"
+    },
+    "button20": {
+        "code": "FF4AB5",
+        "action": "F_BUTTON_23"
+    },
+    "button21": {
+        "code": "FF52AD",
+        "action": "F_BUTTON_24"
+    }
+}
