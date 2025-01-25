@@ -47,7 +47,6 @@ def connect_arduino():
 
 # remote code receiver
 def remote_code_receiver():
-    remote_map_file = 'my_remote.json'
     if not os.path.exists(remote_map_file):
         print(Fore.RED + f"[-] Error: '{remote_map_file}' file not found." + Style.RESET_ALL)
         return
