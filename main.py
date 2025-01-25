@@ -25,7 +25,7 @@ def print_banner():
   / /| | / ___/ __  / / / / / __ \\/ __ \\   / /_/ / _ \\/ __ `__ \\/ __ \\/ __/ _ \\
  / ___ |/ /  / /_/ / /_/ / / / / / /_/ /  / _, _/  __/ / / / / / /_/ / /_/  __/
 /_/  |_/_/   \\__,_/\\__,_/_/_/ /_/\\____/  /_/ |_|\\___/_/ /_/ /_/\\____/\\__/\\___/ 
-By @nimazerobit | Version {version_number}                                                                            
+Arduino PC Remote Control | By @nimazerobit | Version {version_number}                                                                            
     """ + Style.RESET_ALL)
     for i in range(0, 40): # print line
         print(Fore.YELLOW + "-_" , end="")
