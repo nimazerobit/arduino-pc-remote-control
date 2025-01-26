@@ -1,4 +1,4 @@
-#include <IRremote.h>
+#include <IRremote.h> // Version 2.6.0
 #define RECEIVER_PIN 4
 IRrecv receiver(RECEIVER_PIN);
 decode_results results;
