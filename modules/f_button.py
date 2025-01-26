@@ -1,5 +1,6 @@
 import win32api
 import win32con
+from colorama import Fore, Style
 
 class F_Button:
     def f(self, number):
@@ -8,4 +9,5 @@ class F_Button:
             win32api.keybd_event(vk_code, 0)
             win32api.keybd_event(vk_code, 0, win32con.KEYEVENTF_KEYUP)
         else:
-            print("Invalid function key number. Use a number between 1 and 24.")
+            print(Fore.RED + "[-] Error: Invalid function key number." + Style.RESET_ALL)
+            
