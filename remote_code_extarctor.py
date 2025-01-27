@@ -9,6 +9,11 @@ import json
 from datetime import datetime
 
 # load environment variables
+if not os.path.exists(".env"): # create .env file if not exists
+    with open(".env", "w") as f:
+        f.write("ARDUINO_PORT=COM3\nBAUD_RATE=9600\nVERSION=1.0\nREMOTE_MAP_FILE=remote_map.json")
+        print(Fore.YELLOW + "[!] .env file created. Please configure the file before running the program." + Style.RESET_ALL)
+        exit()
 load_dotenv()
 arduino_port = os.getenv("ARDUINO_PORT")
 baud_rate = int(os.getenv("BAUD_RATE"))
